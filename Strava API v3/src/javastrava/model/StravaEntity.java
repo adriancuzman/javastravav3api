@@ -1,5 +1,7 @@
 package javastrava.model;
 
+import java.io.Serializable;
+
 import javastrava.model.reference.StravaResourceState;
 
 /**
@@ -10,7 +12,7 @@ import javastrava.model.reference.StravaResourceState;
  * @author Dan Shannon
  *
  */
-public interface StravaEntity {
+public interface StravaEntity extends Serializable{
 	/**
 	 * @return Return the resource state of the entity
 	 */
