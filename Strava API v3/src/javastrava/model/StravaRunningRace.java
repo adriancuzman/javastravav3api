@@ -26,14 +26,14 @@ public class StravaRunningRace implements StravaCacheableEntity<Integer> {
 	 * <p>
 	 * Indicates level of detail
 	 * </p>
-	 * <p>
+	 * 
 	 * The {@link StravaResourceState#SUMMARY summary representation} of the running race is the same as the {@link StravaResourceState#DETAILED detailed representation}, except it does NOT include
 	 * these attributes:
 	 * <ul>
 	 * <li><code>{@link #routeIds}</code></li>
 	 * <li><code>{@link #websiteUrl}</code></li>
 	 * </ul>
-	 * </p>
+	 * 
 	 *
 	 */
 	private StravaResourceState resourceState;
@@ -52,7 +52,7 @@ public class StravaRunningRace implements StravaCacheableEntity<Integer> {
 	 * <p>
 	 * Race distance in metres
 	 * </p>
-	 * <p>
+	 * 
 	 * Common race distances have fixed distance values. These include:
 	 * <ul>
 	 * <li>1 Mile: 1609.34</li>
@@ -63,7 +63,7 @@ public class StravaRunningRace implements StravaCacheableEntity<Integer> {
 	 * <li>50K: 50000</li>
 	 * <li>100K: 100000</li>
 	 * </ul>
-	 * </p>
+	 * 
 	 * <p>
 	 * Other races have custom distances. For example, a 50 Mile will be 80467.0 calculated as 1609.34 meters/mile.
 	 * </p>

@@ -49,7 +49,7 @@ public class StravaGear implements StravaCacheableEntity<String> {
 	private String modelName;
 
 	/**
-	 * (Bikes only) 1 -> mtb, 2 -> cross, 3 -> road, 4 -> time trial
+	 * (Bikes only) 1 - mtb, 2 - cross, 3 - road, 4 - time trial
 	 */
 	private StravaFrameType frameType;
 

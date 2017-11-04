@@ -199,13 +199,13 @@ public class StravaActivity implements StravaCacheableEntity<Long> {
 	 */
 	private Boolean trainer;
 
-	/**
+	/**<p>
 	 * Is set to <code>true</code> if the activity was flagged as a commute
 	 * </p>
 	 */
 	private Boolean commute;
 
-	/**
+	/**<p>
 	 * Is set to <code>true</code> if the activity was manually entered into Strava, rather than being uploaded as a file from some GPS device, or your phone
 	 * </p>
 	 */
@@ -223,7 +223,7 @@ public class StravaActivity implements StravaCacheableEntity<Long> {
 	private Boolean flagged;
 
 	/**
-	 * For runs only, 0 -> ‘default’, 1 -> ‘race’, 2 -> ‘long run’, 3 -> ‘intervals’
+	 * For runs only, 0  ‘default’, 1  ‘race’, 2  ‘long run’, 3  ‘intervals’
 	 */
 	private StravaWorkoutType workoutType;
 
@@ -353,8 +353,6 @@ public class StravaActivity implements StravaCacheableEntity<Long> {
 	private StravaVideo video;
 
 	/**
-	 * The token used to construct an embed URL in the form
-	 * <a href= "https://www.strava.com/activities/[ACTIVITY_ID]/embed/[embedId]">https://www.strava.com/activities/[ACTIVITY_ID]/embed/[embedId]</a>
 	 */
 	private String embedToken;
 
